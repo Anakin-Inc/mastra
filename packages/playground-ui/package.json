@@ -230,7 +230,7 @@
     "@modelcontextprotocol/sdk": "^1.31.0",
     "@storybook/addon-a11y": "^10.6.0",
     "@storybook/addon-docs": "^10.6.0",
-    "@storybook/addon-mcp": "^10.6.0",
+    "@storybook/addon-mcp": "^10.6.2",
     "@storybook/react-vite": "^10.6.0",
     "@stryker-mutator/core": "catalog:",
     "@stryker-mutator/vitest-runner": "catalog:",

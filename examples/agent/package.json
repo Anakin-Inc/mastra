@@ -32,7 +32,7 @@
     "@modelcontextprotocol/sdk": "^1.31.0",
     "ai": "^4.3.19",
     "ai-v5": "npm:ai@^5.0.93",
-    "better-auth": "^1.2.8",
+    "better-auth": "^1.7.7",
     "fetch-to-node": "^2.1.0",
     "mastra": "latest",
     "typescript": "^5.9.3",

@@ -29,7 +29,7 @@
   "dependencies": {
     "@fastify/busboy": "^3.2.2",
     "@mastra/server": "workspace:*",
-    "hono": "^4.13.7"
+    "hono": "^4.13.16"
   },
   "devDependencies": {
     "@ai-sdk/openai": "^2.0.115",

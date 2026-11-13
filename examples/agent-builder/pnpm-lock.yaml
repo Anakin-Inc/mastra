@@ -49,10 +49,10 @@ importers:
         version: 3.0.14
       '@hono/node-server':
         specifier: ^1.19.15
-        version: 1.19.17(hono@4.13.11)
+        version: 1.19.17(hono@4.13.16)
       '@hono/node-ws':
         specifier: ^1.1.1
-        version: 1.3.1(@hono/node-server@1.19.17(hono@4.13.11))(hono@4.13.11)
+        version: 1.3.1(@hono/node-server@1.19.17(hono@4.13.16))(hono@4.13.16)
       '@mastra/ai-sdk':
         specifier: link:../../client-sdks/ai-sdk
         version: link:../../client-sdks/ai-sdk
@@ -102,8 +102,8 @@ importers:
         specifier: ^6.0.1
         version: 6.0.233(zod@4.6.5)
       hono:
-        specifier: 4.13.11
-        version: 4.13.11
+        specifier: ^4.13.16
+        version: 4.13.16
       typescript:
         specifier: ^5.9.3
         version: 5.9.3
@@ -290,8 +290,8 @@ packages:
   headers-polyfill@5.0.1:
     resolution: {integrity: sha512-1TJ6Fih/b8h5TIcv+1+Hw0PDQWJTKDKzFZzcKOiW1wJza3XoAQlkCuXLbymPYB8+ZQyw8mHvdw560e8zVFIWyA==}
 
-  hono@4.13.11:
-    resolution: {integrity: sha512-/SMX/RQNJn7oNmFwH6DtwDqcrzZU2otm1FD6OJe2cWF6cfy/F8hq0XVBv7xW3FTJshRQwuBnXHDq2kNsdZnshg==}
+  hono@4.13.16:
+    resolution: {integrity: sha512-AOLOEhvrV+iH92xXCnFr/5+3KjPKcI3xP63XJtX5spAnkznPdHijlIsUTpi7/9EhWqrTCekw5c5zh1K+YsVw7A==}
     engines: {node: '>=16.9.0'}
 
   is-node-process@1.2.0:
@@ -439,14 +439,14 @@ snapshots:
     dependencies:
       json-schema: 0.4.0
 
-  '@hono/node-server@1.19.17(hono@4.13.11)':
+  '@hono/node-server@1.19.17(hono@4.13.16)':
     dependencies:
-      hono: 4.13.11
+      hono: 4.13.16
 
-  '@hono/node-ws@1.3.1(@hono/node-server@1.19.17(hono@4.13.11))(hono@4.13.11)':
+  '@hono/node-ws@1.3.1(@hono/node-server@1.19.17(hono@4.13.16))(hono@4.13.16)':
     dependencies:
-      '@hono/node-server': 1.19.17(hono@4.13.11)
-      hono: 4.13.11
+      '@hono/node-server': 1.19.17(hono@4.13.16)
+      hono: 4.13.16
       ws: 8.21.1
     transitivePeerDependencies:
       - bufferutil
@@ -564,7 +564,7 @@ snapshots:
       '@types/set-cookie-parser': 2.4.10
       set-cookie-parser: 3.1.2
 
-  hono@4.13.11: {}
+  hono@4.13.16: {}
 
   is-node-process@1.2.0: {}
 
